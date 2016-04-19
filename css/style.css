@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Alfa+Slab+One);
+@import url(https://fonts.googleapis.com/css?family=Fira+Mono);
+body {
+    -webkit-user-select: none;
+     -moz-user-select: -moz-none;
+      -ms-user-select: none;
+          user-select: none;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-image: url("http://i370.photobucket.com/albums/oo145/okamido/seamless-stone-like-background.jpg");
+}
+
+main {
+  flex: 1 0 auto;
+}
+.title {
+  width: 100% auto;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.titleBot {
+  margin: 0px
+}
+
+.titleTop {
+  margin: 0px;
+}
+.simon-main{
+ /* border:1px solid black;*/
+  width: 600px;
+
+  margin: 20px auto;
+}
+#green{
+  fill: #00AA00;
+}
+#green.on{
+  fill: #00FF00;
+}
+#red{
+  fill: #AA0000;
+}
+#red.on{
+  fill: #FF0000;
+}
+#yellow{
+  fill: #AAAA00;
+}
+#yellow.on{
+  fill: #FFFF00;
+}
+#blue{
+  fill: #00AAAA;
+}
+#blue.on{
+  fill: #00FFFF;
+}
+.click{
+  pointer-events : auto;
+  cursor:pointer;
+}
+
+.noclick{
+  pointer-events:none;
+}
